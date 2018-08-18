@@ -1,4 +1,5 @@
 # fantia
+
 fantiaの画像をログインして取得する
 
 seleniumを使用したfantiaにログインしてpost/xxxxの画像を取得するスクレイピングです。
@@ -7,7 +8,8 @@ seleniumを使用したfantiaにログインしてpost/xxxxの画像を取得す
 twitter連携には対応してません
 ユメノソラIDだけです
 
-#実行環境
+# 実行環境
+
 macOS HighSieera
 
 JetBrains Idea
@@ -15,7 +17,8 @@ JetBrains Idea
 kotlin
 
 
-#依存関係
+# 依存関係
+
 * selenium
 * fuel
 * kotlin-coroutine
@@ -61,7 +64,8 @@ dependencies {
 
 ```
 
-#login_url 
+# login_url 
+
 seleniumでログイン画面にいかない場合は
 
 ![image](https://imgur.com/download/sPdCH3R)
