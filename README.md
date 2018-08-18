@@ -4,6 +4,8 @@ fantiaの画像をログインして取得する
 seleniumを使用したfantiaにログインしてpost/xxxxの画像を取得するスクレイピングです。
 
 某氏の画像がzipで纏めてられなかったのでそれを取得する必要があるかなと思ったんですけど。あとで見たらzipで纏められていたんでダメですね（笑）
+twitter連携には対応してません
+ユメノソラIDだけです
 
 #実行環境
 macOS HighSieera
@@ -59,6 +61,10 @@ dependencies {
 
 ```
 
+#login_url 
+seleniumでログイン画面にいかない場合は
+![https://imgur.com/a/ETHSGHH](https://imgur.com/a/ETHSGHH)
+fantiaからログイン画面に行ってその時のurlをソース上のlogin_urlに設定してください
 
 # 実行
 ```
