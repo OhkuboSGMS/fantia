@@ -63,7 +63,9 @@ dependencies {
 
 #login_url 
 seleniumでログイン画面にいかない場合は
-![https://imgur.com/a/ETHSGHH](https://imgur.com/a/ETHSGHH)
+
+![image](https://imgur.com/download/sPdCH3R)
+
 fantiaからログイン画面に行ってその時のurlをソース上のlogin_urlに設定してください
 
 # 実行
